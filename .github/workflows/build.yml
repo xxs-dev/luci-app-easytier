@@ -31,7 +31,6 @@ jobs:
           - aarch64_cortex-a53
           
         sdk:
-          - 22.03.7
           - SNAPSHOT
 
     steps:
