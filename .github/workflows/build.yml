@@ -28,12 +28,11 @@ jobs:
       fail-fast: false
       matrix:
        arch:
-           - x86_64
-          
+          - aarch64_cortex-a53
+        
        sdk:
-          - 22.03.7
-          - 24.10.2
-          - SNAPSHOT 
+          - 24.10.3
+          - SNAPSHOT
 
     steps:
       - uses: actions/checkout@v4
